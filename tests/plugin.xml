@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-nullresulttest-tests" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>null result test plugin tests</name>
+    <description>tests for cordova-plugin-nullresulttest plugin</description>
+
+    <js-module name="tests" src="tests.js">
+    </js-module>
+
+</plugin>

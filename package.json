@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-nullresulttest",
+  "version": "0.0.1",
+  "description": "test plugin to return null result",
+  "cordova": {
+    "id": "cordova-plugin-nullresulttest",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "KIHARA Hideto",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-paramedic": "^0.5.0"
+  },
+  "scripts": {
+    "test": "cordova-paramedic --cleanUpAfterRun --verbose --platform android --plugin ."
+  }
+}

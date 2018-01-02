@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-nullresulttest" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>null result test plugin</name>
+    <description>test plugin to return null result</description>
+
+    <js-module name="nullresulttest" src="www/nullresulttest.js">
+        <clobbers target="plugins.nullresulttest"/>
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="nullresulttest" >
+                <param name="android-package" value="io.github.deton.nullresulttest.NullResultTestPlugin"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/NullResultTestPlugin.java" target-dir="src/io/github/deton/nullresulttest" />
+    </platform>
+
+</plugin>
